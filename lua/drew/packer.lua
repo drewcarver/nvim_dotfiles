@@ -45,4 +45,6 @@ return require('packer').startup(function(use)
 		  {'rafamadriz/friendly-snippets'},
 	  }
   }
+  use({'scalameta/nvim-metals', requires = { "nvim-lua/plenary.nvim" }})
+
 end)
